@@ -1,0 +1,21 @@
+Fare una chat di classe UDP
+utente identificato tramite un nick
+
+Server con tabella (nick, ip) creata dinamicamente
+Appena client riconosce un ip manda messaggio a Server
+Quando server riceve messaggio (HELLO) risponde (OK)
+
+HELLO = f"Nickname: {nick}"
+OK = "Ok"
+
+
+
+messaggio che il server riceve:
+msg = f"{nick_mittente}:{nick_destinatario}:{messaggio}"
+
+
+TCP
+comando !LIST
+ritorna
+
+f"LIST: {dict.keys()}
